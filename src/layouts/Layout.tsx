@@ -1,10 +1,10 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar";
 
 type Props = {};
 
-function Home({}: Props) {
+function Layout({}: Props) {
   return (
     <div>
       <div>
@@ -15,4 +15,4 @@ function Home({}: Props) {
   );
 }
 
-export default Home;
+export default Layout;

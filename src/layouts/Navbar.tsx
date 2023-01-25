@@ -1,6 +1,4 @@
 import React from "react";
-import SearchIcon from "@mui/icons-material/Search";
-import ClearIcon from "@mui/icons-material/Clear";
 import { CgClose } from "react-icons/cg";
 type Props = {};
 
@@ -35,7 +33,7 @@ function Navbar({}: Props) {
           </span>
           <input
             className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 focus:border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:ring-transparent   sm:text-sm"
-            placeholder="Search for anything..."
+            placeholder="Search for Pokemon"
             type="search"
             name="search"
           />
